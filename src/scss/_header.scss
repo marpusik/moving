@@ -1,13 +1,14 @@
 nav {
-  background-color: rgba(0, 119, 134, 0.651);
+  background-color: #fff;
   overflow: hidden;
 }
 .navbar {
   display: flex;
   width: 100%;
+  align-items: center;
   justify-content: space-between;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 34px;
+  padding-bottom: 68px;
 }
 .logo {
   a {
@@ -16,14 +17,34 @@ nav {
 }
 .menu {
   display: flex;
+  margin-left: 545px;
   // .menu__item
   &__item {
-    margin-left: 25px;
+    margin-right: 58px;
   }
   // .menu__item-link
   &__item-link {
-    color: white;
+    max-width: 548px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 3.4px;
+    color: #54524f;
   }
+}
+.search {
+  position: relative;
+}
+.search img {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+.search input {
+  width: 183px;
+  height: 51px;
+  opacity: 0.47;
+  background-color: #7f7770;
+  border-radius: 25px;
 }
 .burger {
   display: none;

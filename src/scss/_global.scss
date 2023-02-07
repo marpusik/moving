@@ -19,10 +19,16 @@
 }
 // Body Locked
 body {
- font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   &.locked {
     overflow: hidden;
   }
+}
+.top-bg{
+  background: url("../img/header-fon.jpg") no-repeat;
+  width: 100%;
+  min-height: 1077px;
+  background-size: cover;
 }
 // Animations
 // Fade
