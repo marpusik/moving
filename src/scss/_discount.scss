@@ -34,3 +34,12 @@
   border-radius: 50px;
   letter-spacing: 11px;
 }
+
+@media screen and (max-width: 1700px) {
+  .discount__img{
+    height: 800px;
+  }
+  .discount, .discount2{
+    gap: 50px;
+  }
+}

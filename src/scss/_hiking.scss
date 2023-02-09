@@ -9,7 +9,7 @@
   font-size: 58px;
   font-weight: 400;
 }
-.hiking p{
+.hiking__txt {
   margin: 41px auto 0;
   max-width: 925px;
   color: #dbdbdb;
@@ -17,4 +17,41 @@
   font-weight: 400;
   padding-top: 50px;
   padding-bottom: 400px;
+  font-style: normal;
+}
+.txt{
+  margin: 41px auto 0;
+  max-width: 925px;
+  color: #dbdbdb;
+  font-size: 29px;
+  font-weight: 400;
+  font-style: normal;
+}
+.hiking__wrap{
+  margin-top: 84px;
+  position: relative;
+  padding-bottom: 231px;
+}
+.hiking__text{
+  padding-top: 0px;
+}
+input{
+  padding: 21px 30px 22px 36px;
+  border-radius: 50px;
+  width: 659px;
+  height: 63px;
+}
+.hiking__wrap button{
+  background-color: #54524f;
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 18px 42px;
+  border-radius: 50px;
+  position: absolute;
+  right: 245px;
+}
+@media screen and (max-width: 1700px) {
+
 }

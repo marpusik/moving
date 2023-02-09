@@ -1,4 +1,35 @@
-// Footer
-footer {
-    display: block;
+footer{
+  background: #7f7770;
+}
+footer .container{
+  margin-top: 100px;
+  padding-top: 250px;
+  display: flex;
+  color: #fff;
+}
+footer h5{
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 37px;
+}
+footer p{
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  max-width: none;
+  font-style: normal;
+  margin-top: 0px;
+}
+.title__social{
+  margin-top: 35px;
+  margin-bottom: 300px;
+}
+footer img{
+  padding-right: 16px;
+}
+.footer__about a, .footer__services a, .footer__other a{
+  display: inline-block;
+  padding-bottom: 25px;
+  font-size: 20px;
+  color: #fff;
 }
