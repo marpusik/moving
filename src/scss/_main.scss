@@ -39,3 +39,21 @@ p{
 .main div{
   padding-bottom: 250px;
 }
+@media screen and (max-width: $breakpoint1450) {
+  h1{
+    font-size: 45px;
+    max-width: 266px;
+  }
+  .main h3{
+    font-size: 15px;
+  }
+  .main a{
+    font-size: 15px;
+  }
+  p{
+    font-size: 15px;
+  }
+  .container{
+    max-width: 900px;
+  }
+}

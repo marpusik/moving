@@ -1,5 +1,5 @@
 .explore{
-  background: url('../img/explore.jpg') center / cover no-repeat;
+  background: url('../img/explore2.jpg') center / cover no-repeat;
   padding-bottom: 600px;
   padding-top: 600px;
 }
@@ -11,4 +11,15 @@
   font-style: italic;
   text-align: end;
   float: right;
+}
+@media screen and (max-width: $breakpoint1450) {
+.explore{
+  background-size: 100vw;
+}
+ .explore h2{
+    font-weight: 100;
+    letter-spacing: 0;
+    font-size: 60px;
+   max-width: 315px;
+ }
 }

@@ -18,11 +18,9 @@ nav {
 .menu {
   display: flex;
   margin-left: 545px;
-  // .menu__item
   &__item {
     margin-right: 58px;
   }
-  // .menu__item-link
   &__item-link {
     max-width: 548px;
     font-size: 17px;
@@ -133,5 +131,18 @@ nav {
   // .menu__link
   .menu__item-link {
     color: white;
+  }
+}
+@media screen and (max-width: $breakpoint1450) {
+  .menu {
+    margin-left: 50px;
+  }
+  .navbar {
+    justify-content: center;
+  }
+  .menu__item-link{
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 100;
   }
 }

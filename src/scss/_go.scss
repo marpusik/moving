@@ -33,11 +33,9 @@ h3 {
 .swiper-slide {
   display: flex;
 }
-.slide__wrap{
+.slide__wrap {
   width: 339px;
   background-color: #7f7770;
-}
-.slide__img {
 }
 .slide__title {
   color: #ffffff;
@@ -52,7 +50,7 @@ h3 {
   font-weight: 400;
   padding: 21px 20px 67px 16px;
 }
-.swiper-arrows{
+.swiper-arrows {
   text-align: center;
   margin-top: 55px;
 }
@@ -67,4 +65,25 @@ h3 {
 }
 .next__btn {
   background: none;
+}
+@media screen and (max-width: $breakpoint1450) {
+  h2 {
+    font-size: 31px;
+  }
+  h3 {
+    font-size: 15px;
+    max-width: 500px;
+  }
+  .slide__wrap, .slide__img img{
+    width: 250px;
+  }
+  .slide__title{
+    font-size: 20px;
+  }
+  .slide__text{
+    font-size: 13px;
+  }
+  .swiper-arrows img {
+    width: 30px;
+  }
 }

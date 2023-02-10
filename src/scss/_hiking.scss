@@ -1,5 +1,5 @@
 .hiking {
-  background: url("../img/hiking.jpg") no-repeat;
+  background: url("../img/hiking2.jpg") no-repeat;
   background-size: cover;
   text-align: center;
 }
@@ -52,6 +52,17 @@ input{
   position: absolute;
   right: 245px;
 }
-@media screen and (max-width: 1700px) {
-
+@media screen and (max-width: $breakpoint1450) {
+.hiking h2{
+  padding-top: 250px;
+  font-size: 40px;
+}
+  .hiking__txt{
+    padding-top: 0px;
+    padding-bottom: 200px;
+  }
+  .txt{
+    font-size: 20px;
+    max-width: 625px;
+  }
 }
