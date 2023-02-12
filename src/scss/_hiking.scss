@@ -3,7 +3,7 @@
   background-size: cover;
   text-align: center;
 }
-.hiking  h2 {
+.hiking h2 {
   padding-top: 475px;
   color: #ffffff;
   font-size: 58px;
@@ -19,7 +19,7 @@
   padding-bottom: 400px;
   font-style: normal;
 }
-.txt{
+.txt {
   margin: 41px auto 0;
   max-width: 925px;
   color: #dbdbdb;
@@ -27,21 +27,21 @@
   font-weight: 400;
   font-style: normal;
 }
-.hiking__wrap{
+.hiking__wrap {
   margin-top: 84px;
   position: relative;
   padding-bottom: 231px;
 }
-.hiking__text{
+.hiking__text {
   padding-top: 0px;
 }
-input{
+input {
   padding: 21px 30px 22px 36px;
   border-radius: 50px;
-  width: 659px;
+  width: 650px;
   height: 63px;
 }
-.hiking__wrap button{
+.hiking__wrap button {
   background-color: #54524f;
   font-size: 25px;
   font-weight: 700;
@@ -53,16 +53,24 @@ input{
   right: 245px;
 }
 @media screen and (max-width: $breakpoint1450) {
-.hiking h2{
-  padding-top: 250px;
-  font-size: 40px;
-}
-  .hiking__txt{
+  .hiking h2 {
+    padding-top: 250px;
+    font-size: 40px;
+  }
+  .hiking__txt {
     padding-top: 0px;
     padding-bottom: 200px;
   }
-  .txt{
+  .txt {
     font-size: 20px;
     max-width: 625px;
+  }
+  input {
+    width: 450px;
+  }
+  .hiking__wrap button{
+    font-weight: 100;
+    font-size: 23px;
+    right: 200px;
   }
 }
