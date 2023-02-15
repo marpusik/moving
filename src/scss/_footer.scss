@@ -1,18 +1,18 @@
-footer{
+footer {
   background: #7f7770;
 }
-footer .container{
+footer .container {
   margin-top: 100px;
   padding-top: 250px;
   display: flex;
   color: #fff;
 }
-footer h5{
+footer h5 {
   font-size: 32px;
   font-weight: 400;
   padding-bottom: 37px;
 }
-footer p{
+footer p {
   color: #ffffff;
   font-size: 24px;
   font-weight: 400;
@@ -20,16 +20,37 @@ footer p{
   font-style: normal;
   margin-top: 0px;
 }
-.title__social{
+.title__social {
   margin-top: 35px;
   margin-bottom: 300px;
 }
-footer img{
+footer img {
   padding-right: 16px;
 }
-.footer__about a, .footer__services a, .footer__other a{
+.footer__about a, .footer__services a, .footer__other a {
   display: inline-block;
   padding-bottom: 25px;
   font-size: 20px;
   color: #fff;
+}
+@media screen and (max-width: $breakpoint992) {
+  footer h5 {
+    font-size: 20px;
+  }
+  .container {
+    max-width: 900px;
+  }
+  footer p {
+    font-size: 18px;
+  }
+  .title__social {
+    margin-bottom: 200px;
+  }
+  footer .container {
+    padding-top: 150px;
+  }
+  .footer__about a, .footer__services a, .footer__other a {
+    font-size: 16px;
+    max-width: 75px;
+  }
 }

@@ -1,9 +1,9 @@
-.explore{
+.explore {
   background: url('../img/explore2.jpg') center / cover no-repeat;
   padding-bottom: 600px;
   padding-top: 600px;
 }
-.explore h2{
+.explore h2 {
   max-width: 517px;
   text-shadow: 3px -4px 5px rgba(84, 82, 79, 0.36);
   color: #edb47c;
@@ -13,13 +13,23 @@
   float: right;
 }
 @media screen and (max-width: $breakpoint1450) {
-.explore{
-  background-size: 100vw;
-}
- .explore h2{
+  .explore {
+    background-size: 100vw;
+  }
+  .explore h2 {
     font-weight: 100;
     letter-spacing: 0;
     font-size: 60px;
-   max-width: 315px;
- }
+    max-width: 315px;
+  }
+}
+@media screen and (max-width: $breakpoint992) {
+  .explore {
+    position: relative;
+    padding-top: 0px;
+  }
+  .explore h2 {
+    position: absolute;
+    right: 95px;
+    bottom: 265px;  }
 }
