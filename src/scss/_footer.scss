@@ -33,12 +33,21 @@ footer img {
   font-size: 20px;
   color: #fff;
 }
-@media screen and (max-width: $breakpoint992) {
+@media (max-width: $breakpoint1450) {
   footer h5 {
-    font-size: 20px;
+    margin-right: 10px;
+  }
+  .footer__about a, .footer__services a, .footer__other a {
+    margin-right: 10px;
+  }
+}
+@media (max-width: $breakpoint992) {
+  footer h5 {
+    font-size: 18px;
+    margin-right: 10px;
   }
   .container {
-    max-width: 900px;
+    max-width: 750px;
   }
   footer p {
     font-size: 18px;
@@ -52,5 +61,31 @@ footer img {
   .footer__about a, .footer__services a, .footer__other a {
     font-size: 16px;
     max-width: 75px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: $breakpoint768) {
+  footer h5 {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  .container {
+    max-width: 700px;
+  }
+  footer p {
+    font-size: 13px;
+  }
+  .title__social {
+    margin-bottom: 130px;
+  }
+  .title__social img{
+    max-width: 45px;
+  }
+  footer .container {
+    padding-top: 150px;
+  }
+  .footer__about a, .footer__services a, .footer__other a {
+    font-size: 13px;
+    max-width: 79px;
   }
 }

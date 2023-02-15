@@ -12,7 +12,7 @@
   text-align: end;
   float: right;
 }
-@media screen and (max-width: $breakpoint1450) {
+@media (max-width: $breakpoint1450) {
   .explore {
     background-size: 100vw;
   }
@@ -23,7 +23,7 @@
     max-width: 315px;
   }
 }
-@media screen and (max-width: $breakpoint992) {
+@media (max-width: $breakpoint992) {
   .explore {
     position: relative;
     padding-top: 0px;

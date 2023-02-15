@@ -39,7 +39,7 @@ p{
 .main div{
   padding-bottom: 250px;
 }
-@media screen and (max-width: $breakpoint1450) {
+@media (max-width: $breakpoint1450) {
   h1{
     font-size: 45px;
     max-width: 266px;
@@ -52,6 +52,36 @@ p{
   }
   p{
     font-size: 15px;
+  }
+  .container{
+    max-width: 1100px;
+  }
+}
+@media (max-width: $breakpoint992) {
+  .main div{
+    padding-bottom: 0px;
+  }
+  .top-bg{
+    min-height: 800px;
+  }
+  h1{
+    font-size: 30px;
+    max-width: 185px;
+  }
+  .main{
+    padding-top: 50px;
+  }
+  .main h3{
+    font-size: 11px;
+    margin: 15px 0 45px;
+  }
+  .main a{
+    font-size: 11px;
+    padding: 9px 20px 9px 23px;
+  }
+  p{
+    font-size: 12px;
+    max-width: 280px;
   }
   .container{
     max-width: 900px;

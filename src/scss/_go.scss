@@ -66,7 +66,7 @@ h3 {
 .next__btn {
   background: none;
 }
-@media screen and (max-width: $breakpoint1450) {
+@media (max-width: $breakpoint1450) {
   h2 {
     font-size: 31px;
   }
@@ -85,5 +85,38 @@ h3 {
   }
   .swiper-arrows img {
     width: 30px;
+  }
+}
+@media (max-width: $breakpoint992) {
+  h2 {
+    font-size: 25px;
+  }
+  .go h2{
+    margin-top: -60px;
+  }
+  h3 {
+    font-size: 11px;
+    max-width: 400px;
+  }
+  .slide__wrap, .slide__img img{
+    width: 160px;
+  }
+  .slide__title{
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  .slide__text{
+    font-size: 10px;
+    padding: 21px 20px 45px 16px;
+  }
+  .swiper-arrows{
+    margin-top: 25px;
+  }
+  .swiper-arrows img {
+    width: 16px;
+  }
+  .swiper-slide{
+    width: 240px;
+    justify-content: center;
   }
 }

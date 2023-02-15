@@ -71,6 +71,7 @@ nav {
       align-items: center;
       z-index: 22;
       animation: fade 0.1s linear;
+      margin: 0;
     }
   }
   // .burger
@@ -133,12 +134,57 @@ nav {
     color: white;
   }
 }
-@media screen and (max-width: $breakpoint1450) {
+@media (max-width: $breakpoint1450) {
   .menu {
     margin-left: 50px;
   }
   .navbar {
     justify-content: center;
+  }
+  .menu__item-link{
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 100;
+  }
+}
+@media (max-width: $breakpoint992) {
+  .logo img{
+    max-width: 70px;
+  }
+  .search{
+    display: none;
+  }
+  .menu {
+    margin-left: 50px;
+  }
+  .navbar {
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .menu__item-link{
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 100;
+  }
+}
+@media (max-width: $breakpoint768) {
+  .logo img{
+    max-width: 50px;
+  }
+  .top-bg {
+    min-height: 560px;
+  }
+  .search{
+    display: none;
+  }
+  .menu {
+    margin-left: 50px;
+  }
+  .navbar {
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .menu__item-link{
     font-size: 14px;

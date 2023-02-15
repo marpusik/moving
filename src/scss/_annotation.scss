@@ -16,9 +16,9 @@
   font-weight: 400;
   font-style: normal;
 }
-@media screen and (max-width: $breakpoint1450) {
+@media (max-width: $breakpoint1450) {
   .annotation h4 {
-    margin-top: 150px;
+    margin-top: 100px;
   }
   .annotation p {
     letter-spacing: 0;

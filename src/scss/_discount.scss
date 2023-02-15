@@ -1,4 +1,4 @@
-.discount{
+.discount {
   display: flex;
   margin-top: 183px;
   width: 100%;
@@ -6,15 +6,15 @@
   gap: 150px;
   align-items: center;
 }
-.discount__title{
+.discount__title {
   max-width: 600px;
   color: #ffffff;
   font-size: 58px;
 }
-.discount__img{
+.discount__img {
   height: 1000px;
 }
-.discount__text{
+.discount__text {
   color: #ffffff;
   font-size: 29px;
   font-weight: 400;
@@ -24,7 +24,7 @@
   max-width: 550px;
   padding-bottom: 53px;
 }
-.discount a{
+.discount a {
   display: inline-block;
   padding: 26px 60px;
   background-color: #e2a355;
@@ -34,31 +34,120 @@
   border-radius: 50px;
   letter-spacing: 11px;
 }
-
 @media screen and (max-width: 1700px) {
-  .discount__img{
+  .discount__img {
     height: 800px;
   }
-  .discount, .discount2{
+  .discount, .discount2 {
     gap: 50px;
   }
 }
-@media screen and (max-width: $breakpoint1450) {
-  .discount__img{
+@media (max-width: $breakpoint1450) {
+  .discount__img {
     height: 600px;
   }
-  .discount, .discount2{
+  .discount, .discount2 {
     gap: 25px;
   }
- .discount a, .discount2 a{
+  .discount a, .discount2 a {
     font-size: 15px;
-   letter-spacing: 5px;
-   padding: 13px 30px;
+    letter-spacing: 5px;
+    padding: 13px 30px;
   }
-  .discount__title{
+  .discount__title {
     font-size: 30px;
   }
-  .discount__text{
+  .discount__text {
     font-size: 15px;
+  }
+}
+@media (max-width: $breakpoint992) {
+  .discount__img {
+    height: 400px;
+  }
+  .discount, .discount2 {
+    gap: 20px;
+    margin-top: 100px;
+  }
+  .discount2 {
+    margin-top: 0px;
+  }
+  .discount a, .discount2 a {
+    font-size: 10px;
+    letter-spacing: 4px;
+    padding: 10px 25px;
+  }
+  .discount__title {
+    font-size: 25px;
+  }
+  .discount__text {
+    font-size: 13px;
+    display: table-cell;
+    padding: 20px 0 20px;
+  }
+  .discount__wrap {
+    text-align: center;
+  }
+}
+@media (max-width: $breakpoint768) {
+  .discount__img {
+    max-height: 300px;
+  }
+  .container {
+    max-width: 600px;
+  }
+  .discount, .discount2 {
+    gap: 20px;
+    margin-top: 100px;
+  }
+  .discount2 {
+    margin-top: 0px;
+  }
+  .discount a, .discount2 a {
+    font-size: 10px;
+    letter-spacing: 4px;
+    padding: 10px 25px;
+  }
+  .discount__title {
+    font-size: 25px;
+  }
+  .discount__text {
+    font-size: 13px;
+    display: table-cell;
+    padding: 20px 0 20px;
+  }
+  .discount__wrap {
+    text-align: center;
+  }
+}
+@media (max-width: $breakpoint480) {
+  .discount__img {
+    max-height: 250px;
+  }
+  .container {
+    max-width: 500px;
+  }
+  .discount, .discount2 {
+    gap: 10px;
+    margin-top: 50px;
+  }
+  .discount2 {
+    margin-top: 0px;
+  }
+  .discount a, .discount2 a {
+    font-size: 6px;
+    letter-spacing: 2px;
+    padding: 6px 15px;
+  }
+  .discount__title {
+    font-size: 20px;
+  }
+  .discount__text {
+    font-size: 10px;
+    display: table-cell;
+    padding: 15px 0 15px;
+  }
+  .discount__wrap {
+    text-align: center;
   }
 }
