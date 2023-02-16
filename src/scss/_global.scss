@@ -19,6 +19,7 @@
 }
 // Body Locked
 body {
+  overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
   &.locked {
     overflow: hidden;
@@ -26,7 +27,7 @@ body {
 }
 .top-bg{
   background: url("../img/header-fon.jpg") no-repeat;
-  width: 100%;
+  width: 101%;
   min-height: 1077px;
   background-size: cover;
 }
