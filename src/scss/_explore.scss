@@ -2,6 +2,7 @@
   background: url('../img/explore2.jpg') center / cover no-repeat;
   padding-bottom: 600px;
   padding-top: 600px;
+  width: 101%;
 }
 .explore h2 {
   max-width: 517px;
@@ -19,7 +20,7 @@
   .explore h2 {
     font-weight: 100;
     letter-spacing: 0;
-    font-size: 60px;
+    font-size: 30px;
     max-width: 315px;
   }
 }
@@ -32,4 +33,9 @@
     position: absolute;
     right: 95px;
     bottom: 265px;  }
+}
+@media (max-width: $breakpoint768) {
+  .explore{
+    padding-bottom: 380px;
+  }
 }

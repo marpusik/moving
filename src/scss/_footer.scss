@@ -1,5 +1,6 @@
 footer {
   background: #7f7770;
+  width: 101%;
 }
 footer .container {
   margin-top: 100px;
@@ -87,5 +88,11 @@ footer img {
   .footer__about a, .footer__services a, .footer__other a {
     font-size: 13px;
     max-width: 79px;
+  }
+}
+@media (max-width: $breakpoint480) {
+  .footer__title p{
+    margin: 0 10px 0 0;
+    max-width: 465px;
   }
 }
