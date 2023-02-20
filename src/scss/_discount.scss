@@ -122,7 +122,7 @@
 }
 @media (max-width: $breakpoint480) {
   .discount__img {
-    max-height: 250px;
+    max-height: 220px;
   }
   .container {
     max-width: 500px;
@@ -140,10 +140,10 @@
     padding: 6px 15px;
   }
   .discount__title {
-    font-size: 20px;
+    font-size: 15px;
   }
   .discount__text {
-    font-size: 10px;
+    font-size: 9px;
     display: table-cell;
     padding: 15px 0 15px;
   }

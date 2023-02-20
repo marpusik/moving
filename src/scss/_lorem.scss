@@ -28,14 +28,11 @@
   }
 }
 @media (max-width: $breakpoint768) {
-  .lorem__wrap h3{
+  .lorem__wrap h3 {
     max-width: 165px;
   }
 }
 @media (max-width: $breakpoint480) {
-  .lorem .container{
-    justify-content: center;
-  }
   .lorem__wrap h3 {
     font-size: 20px;
     max-width: 128px;
@@ -43,6 +40,12 @@
   .lorem__wrap p {
     line-height: 18px;
     max-width: 80px;
-    margin: 40px 60px 0 0;
+    margin: 40px 0px 30px 23px;
+  }
+  .lorem .container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

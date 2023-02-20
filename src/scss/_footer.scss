@@ -79,7 +79,7 @@ footer img {
   .title__social {
     margin-bottom: 130px;
   }
-  .title__social img{
+  .title__social img {
     max-width: 45px;
   }
   footer .container {
@@ -91,8 +91,11 @@ footer img {
   }
 }
 @media (max-width: $breakpoint480) {
-  .footer__title p{
+  .footer__title p {
     margin: 0 10px 0 0;
     max-width: 465px;
+  }
+  footer h5 {
+    font-size: 13px;
   }
 }
