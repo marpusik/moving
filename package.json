@@ -4,12 +4,13 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "deploy": "gulp-gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "gulp": "^4.0.2"
   },
   "devDependencies": {
