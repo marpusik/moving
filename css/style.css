@@ -24,7 +24,6 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  min-width: 320px;
 }
 
 input::-ms-clear {
@@ -71,6 +70,7 @@ h6 {
 }
 
 body {
+  min-width: 480px;
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
 }
@@ -1784,6 +1784,8 @@ button.swiper-pagination-bullet {
   }
 
   .menu.active {
+    min-width: 100%;
+    min-height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
