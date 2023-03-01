@@ -1,3 +1,4 @@
+// создаем ветку, пушим и дальше 'npm run deploy' и смотрим появилась ли новая ветка gh-pages этим же способом и реакт делаем )
 00. В https://photopea.ru/photoshop-online смотреть psd с Zeplin
 01. В figma смотрим шрифты и в fonts.google link их подключаем в index.html и если 1 шрифт то глобально в body {font-family: 'Poppins', sans-serif} в __global.scss
 02. В figma смотрим ширину container по навбару (1300px) и несем в __vars.scss $containerWidth: 1200; a padding (110px) умножаем на 2* и в $containerPadding: 40; пишем (220px)

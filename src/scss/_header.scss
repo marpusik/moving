@@ -60,6 +60,8 @@ nav {
     width: 100vw;
     display: none;
     &.active {
+      min-width: 100%;
+      min-height: 100%;
       display: flex;
       left: 0;
       top: 0;

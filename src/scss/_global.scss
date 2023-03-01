@@ -19,6 +19,7 @@
 }
 // Body Locked
 body {
+  min-width: 480px;
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
   &.locked {

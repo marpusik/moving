@@ -70,6 +70,7 @@ h6 {
 }
 
 body {
+  min-width: 480px;
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
 }
@@ -1783,6 +1784,8 @@ button.swiper-pagination-bullet {
   }
 
   .menu.active {
+    min-width: 100%;
+    min-height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1850,7 +1853,7 @@ button.swiper-pagination-bullet {
     position: absolute;
     height: 2px;
     width: 100%;
-    background: black;
+    background: "black";
     -webkit-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
     -o-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
     transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
@@ -1869,7 +1872,7 @@ button.swiper-pagination-bullet {
     top: 9px;
     right: 0;
     width: 100%;
-    background: black;
+    background: "black";
     height: 2px;
     -webkit-transform: scale(1);
         -ms-transform: scale(1);

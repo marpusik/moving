@@ -154,28 +154,3 @@ exports.fonts = fonts
 exports.build = build
 exports.watch = watch
 exports.default = watch
-
-// gulp = require('gulp');
-// ghPages = require('gulp-gh-pages');
-//
-// gulp.task('deploy', function() {
-//   return gulp.src('./build/**/*')
-//     .pipe(ghPages());
-// });
-// const paths = {
-//   scripts:{
-//     src:'./',
-//     dest:'./build',
-//   }
-// }
-// async function buildHtml(){
-//   gulp.src(['*.html'])
-//     .pipe(gulp.dest(paths.scripts.dest));
-// }
-// exports.default = async function(){
-//   await buildHtml();
-// }
-// gulp.task('deploy', function () {
-//   return gulp.src('./build/**/*')
-//     .pipe(ghPages());
-// })
